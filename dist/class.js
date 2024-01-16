@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Animal = void 0;
 class Animal {
     // 생성자
     constructor(name) {
@@ -10,6 +12,7 @@ class Animal {
         console.log(`${this.name} moved ${distance} meters.`);
     }
 }
+exports.Animal = Animal;
 class Dog extends Animal {
     // 생성자 오버라이딩
     constructor(name) {

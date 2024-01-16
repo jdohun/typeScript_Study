@@ -1,4 +1,4 @@
-class Animal {
+export class Animal {
     // 속성
     name: string;
     age: number = 0;
