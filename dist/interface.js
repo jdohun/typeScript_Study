@@ -1,11 +1,21 @@
 "use strict";
-const sayHello = function (person) {
-    console.log(`Hello, ${person.firstName} ${person.lastName}!`);
+// interface Person {
+//     firstName: string;
+//     lastName: string;
+//     age: number;
+//     // sayMyName(parameter1:string, parameter2:string):void;
+// }
+//
+// interface Employee extends Person {
+//     role: string;
+// }
+const addTwoNum = (x, y) => x + y;
+let result = addTwoNum(1, 2);
+console.log(`1 + 2 = ${result}`);
+let arr = ["a", "b", "c"];
+console.log(arr[1]);
+let devPerson = {
+    name: "kim",
+    age: 777,
+    skill: "FE"
 };
-const introduce = (employee) => {
-    console.log(`My role is ${employee.role}, my age is ${employee.age}`);
-};
-const myFriend = { firstName: "John", lastName: "Doe", age: 20 };
-sayHello(myFriend); // "Hello, John Doe!"
-const myEmployee = { firstName: "John", lastName: "Doe", age: 20, role: "member" };
-introduce(myEmployee);

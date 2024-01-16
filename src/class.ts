@@ -34,3 +34,12 @@ class Dog extends Animal {
 let dog = new Dog("Buddy");
 dog.move();
 dog.bark();
+
+class Node<T> {
+    data: T;
+    next: Node<T> | null = null;
+
+    constructor(data: T) {
+        this.data = data;
+    }
+}

@@ -16,7 +16,7 @@ enum Player {
 const player = Player.park;	// 박
 
 enum Str {
-    '김','이','박','최','정'
+    '김', '이', '박', '최', '정'
 }
 
 const 김 = Str.김;
