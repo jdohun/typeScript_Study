@@ -21,7 +21,7 @@ class Dog extends Animal {
     }
 
     // 메서드 오버라이딩
-    move(distance: number = 5): void {
+    public move(distance: number = 5): void {
         super.move(distance);
     }
 
