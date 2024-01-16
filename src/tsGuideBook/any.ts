@@ -1,0 +1,24 @@
+//////////////////////////////////////////////////
+// 01. 명시적(Explicit) any 타입 지정
+//////////////////////////////////////////////////
+
+let explicit_type: any;
+
+explicit_type = true;
+
+explicit_type = 'OK!';
+
+console.log('explicit_type:', explicit_type);
+
+
+//////////////////////////////////////////////////
+// 02. 암시적(Implicit) any 타입 지정
+//////////////////////////////////////////////////
+
+let implicit_type;
+
+implicit_type = false;
+
+implicit_type = 'No!';
+
+console.log('implicit_type:', implicit_type);
